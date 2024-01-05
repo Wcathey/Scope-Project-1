@@ -18,7 +18,7 @@ const arrowAvgValue = (array) => {
   }
 return sum / array.length;
 }
-
+// const arrowAvgValue = (array) => array.reduce((acc, value) => acc + value) / array.length;
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
 try {

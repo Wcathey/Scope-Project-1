@@ -28,8 +28,17 @@ Example 4:
 
 ***********************************************************************/
 
-// Your code here 
+const countDownTimer = (n) => {
+if(n === 0) return "Happy New Year!"
+let count = 0;
 
+function countDays() {
+  count ++;
+  if(count === n) return "Happy New Year!";
+  return countDays;
+}
+return countDays;
+}
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
 try {

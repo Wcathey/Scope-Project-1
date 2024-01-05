@@ -14,7 +14,9 @@ arrowGetFullName(p2); // => 'Charlie Brown'
 
 ***********************************************************************/
 
-// Your code here 
+const arrowGetFullName = (person) => person.firstName + ' ' + person.lastName;
+
+
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 

@@ -19,7 +19,7 @@ funcTimer(5000, partyFunc); // in 5 seconds prints: "Party time!"
 ***********************************************************************/
 
 function funcTimer(time, func) {
-  
+  return setTimeout(func, time);
 
 }
 
