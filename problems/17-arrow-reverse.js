@@ -12,8 +12,14 @@ let result3 = arrowReverseString("potato"); // returns "otatop"
 
 ***********************************************************************/
 
-// Your code here 
-
+const arrowReverseString = (str) => {
+  let reversedString = '';
+  for(let i = str.length -1; i >= 0; i--) {
+    let letter = str[i];
+    reversedString += letter;
+  }
+  return reversedString;
+}
 /**************DO NOT MODIFY ANYTHING UNDER THIS LINE*****************/
 
 try {

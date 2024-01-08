@@ -25,7 +25,15 @@ Example 3:
 
 ***********************************************************************/
 
-// Your code here 
+const coinCollector = (numCoins) => {
+
+
+  return function addCoin(value) {
+    
+      return addCoin;
+}
+
+}
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 

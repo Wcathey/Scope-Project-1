@@ -21,8 +21,25 @@ let smoothie2 = smoothieMachine("apples", "bananas", "berries");
 console.log(smoothie2("pineapple"));
 // prints "I'm having a smoothie with apples and bananas and berries and pineapple"
 ***********************************************************************/
+/*
+1.Write a function called smoothieMachine that can hold any number of paramaters. We will declare an argument and use rest to hold any amount.
+2.the smoothie function will return a function that also accepts any number fo parameters so we will use another rest.
+3.The 2nd function returned will return a string made up of all the paramenters.
+4. We need a starting string value of Im having a smoothie with.
+5. after ever ingredient is passed in and added to the string we have to add and.
+6. return the final string.
 
-// Your code here 
+*/
+const smoothieMachine = (func, ...param) => {
+  let smoothie = "I'm having a smoothie with "
+    return function addToSmoothie(...ingredients) {
+      smoothie = smoothie.concat(ingredients);
+      return smoothie;
+        }
+
+    }
+
+
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 try {
